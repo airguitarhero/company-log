@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 import os
 
 load_dotenv()
-failed_ideas = 45
+failed_ideas = 46
 api_key = os.getenv('API_KEY')
 url = f'https://www.tensinet.tech/secret?key={api_key}'
 secret = requests.get(url)
